@@ -1,2 +1,2 @@
 # Exadata-sar_sh
-Exadata sar.sh, Oracle Korea
+Exadata sar.sh, Oracle Korea internal
