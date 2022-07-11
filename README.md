@@ -1,3 +1,7 @@
+# Exadata sar.sh, Oracle Korea internal
+
+#### 이 툴은 한국오라클 ES팀이 인터널로 제공하는 sar.sh를 사용하는 경우에 사용할 수 있습니다.
+
 1. sar.sh version : 2.3.1을 바탕으로 개발되었습니다.
 
 2. DB 서버 데이터가 아래와 같은 값을 내주면 사용이 가능합니다.    
