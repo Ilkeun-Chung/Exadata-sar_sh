@@ -14,6 +14,5 @@
 3.1.1 hostname이 다를 경우 식별할 수 있는 값을 Exadata-sar-xx_YYYYMMDD.conf 에서 수정   
 3.2.1 매트릭 수 및 위치 - HC TYpe     
 ![image](https://user-images.githubusercontent.com/97824573/178221332-f87f581a-9c1e-4df7-9bc6-1749a142eeff.png)
- 
 3.2.2 매트릭 수 및 위치 - EF TYpe    
 ![image](https://user-images.githubusercontent.com/97824573/178221391-c74f61a3-0155-491c-bd56-3a54c6e0c4c8.png)
