@@ -16,3 +16,32 @@
 ![image](https://user-images.githubusercontent.com/97824573/178221332-f87f581a-9c1e-4df7-9bc6-1749a142eeff.png)
 3.2.2 매트릭 수 및 위치 - EF TYpe    
 ![image](https://user-images.githubusercontent.com/97824573/178221391-c74f61a3-0155-491c-bd56-3a54c6e0c4c8.png)
+
+
+4. filebeat.yml 주요 변경 부분
+
+filebeat.inputs:
+
+
+- type: filestream
+#- type: log
+
+  #enabled: false
+  enabled: true
+
+  # Paths that should be crawled and fetched. Glob based paths.
+  paths:
+    - /root/sarlog/sar*log
+    #- c:\programdata\elasticsearch\logs\*
+
+  # Include lines. A list of regular expressions to match. It exports the lines that are
+  # matching any regular expression from the list.
+  include_lines: ['db', 'cel']
+
+
+#output.elasticsearch:
+
+
+output.logstash:
+  # The Logstash hosts
+  hosts: ["localhost:5044"]
