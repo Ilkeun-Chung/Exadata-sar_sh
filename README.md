@@ -19,9 +19,8 @@
 
 
 4. filebeat.yml 주요 변경 부분
-
+<pre>
 filebeat.inputs:
-
 
 - type: filestream
 #- type: log
@@ -45,3 +44,4 @@ filebeat.inputs:
 output.logstash:
   # The Logstash hosts
   hosts: ["localhost:5044"]
+</pre>
