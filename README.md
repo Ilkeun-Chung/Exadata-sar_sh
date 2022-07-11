@@ -21,7 +21,6 @@
 4. filebeat.yml 주요 변경 부분
 <pre>
 filebeat.inputs:
-
 - type: filestream
 #- type: log
 
@@ -37,11 +36,7 @@ filebeat.inputs:
   # matching any regular expression from the list.
   include_lines: ['db', 'cel']
 
-
-#output.elasticsearch:
-
-
-output.logstash:
+ output.logstash:
   # The Logstash hosts
   hosts: ["localhost:5044"]
 </pre>
